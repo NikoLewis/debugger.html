@@ -1,32 +1,3 @@
-
-TEST AREA
-
-```bash
-curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 0.19.1
-git clone git@github.com:devtools-html/debugger.html.git
-
-cd debugger.html
-yarn install
-yarn run firefox
-
-# In a separate terminal tab you will need to run
-
-yarn start
-
-#go to the localhost url provided in your terminal
-```
-### How do you know it's working?
-
-You screen should look like this:
-![alt text](http://g.recordit.co/WjHZaXKifZ.gif "Logo Title Text 1")
-
-
-
-
-
-
-TEST AREA 
-
 # debugger.html
 
 [![slack-badge]][slack] ![][ci-status] [![npm-version]][npm-package] [![PRs Welcome]][make-a-pull-request]
